@@ -14,7 +14,7 @@ namespace BoolonxMenu.Patches.GorillaOS
         {
             string BoolonxTabText = "--- boolonx menu settings ---\n\n";
             if(SnowballFast.Enabled) BoolonxTabText += $"press 1 to change snowball speed ({SnowballFast.Multipliers[SnowballFast.MultiplierIndex]}x)\n";
-            if(GSTBodyRotation.Enabled) BoolonxTabText += $"press 2 to change body rotation mode: {GSTBodyRotation.Modes[GSTBodyRotation.Mode]})\n";
+            if(GSTBodyRotation.Enabled) BoolonxTabText += $"press 2 to change body rotation mode: {GSTBodyRotation.Modes[GSTBodyRotation.Mode]}\n";
             __instance.screenText.Set(BoolonxTabText);
             return false;
         }
